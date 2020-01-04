@@ -1,0 +1,47 @@
+/* Button.js styling */
+.button-wrapper {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.5em;
+  background-color: #e0e1e6;
+  color: #888888;
+  flex: 1;
+  outline: 1px solid #888888;
+}
+
+.operator {
+  color: #888888;
+  background-color: #fcd12a;
+}
+
+/* Input.js styling */
+.input {
+  height: 5.5em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-image: url("images/Colorado Symbol opacity low.jpg");
+  background-size: 95%;
+  color: #000000;
+  padding: 0.5em;
+  outline: 1px solid #888888;
+}
+
+/* ClearButton.js styling */
+.clear-btn {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  background-image: linear-gradient(white 2%, #0f52ba);
+  color: #000000;
+  flex: 1;
+  outline: 1px solid #888888;
+}
